@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - 0 to 9 v3
  *
- * Description: 
+ * Description: printing 0 - 9 with ,
  *
- * Return:
+ * Return: 0 (Success)
 */
 
 int main(void)
