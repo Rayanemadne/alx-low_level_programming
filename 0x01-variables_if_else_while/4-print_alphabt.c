@@ -18,7 +18,7 @@ int main(void)
 		{
 			al++;
 		}
-		putchar(al);	
+		putchar(al);
 	}
 	putchar('\n');
 	return (0);
