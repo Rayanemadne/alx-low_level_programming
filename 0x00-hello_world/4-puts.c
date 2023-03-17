@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-/*
- *C program that print using puts
+/**
+ * the printer or should I say the puter 
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: 0
 */
 
 int main(void)
