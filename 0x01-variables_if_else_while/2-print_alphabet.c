@@ -3,7 +3,7 @@
 /**
  * main - Alphabet kido
  *
- * Description: print alphabet 
+ * Description: print alphabet
  *
  * Return: 0 (Success)
 */
@@ -14,6 +14,7 @@ int main(void)
 	for (al = 'a'; al <= 'z'; al++)
 	{
 		putchar(al);
+		putchar('\n');
 	}
 	return (0);
 }
