@@ -1,11 +1,12 @@
 #include <stdio.h>
 
+
 /**
- * main - printer
+ * main - Theprinter300
  *
- * Description : print with the function printf
+ * Description: printing with printf function.
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
