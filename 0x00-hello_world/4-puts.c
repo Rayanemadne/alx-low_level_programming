@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * the printer or should I say the puter 
+ * main - PrinterMan this is the name of this program
  *
  * Description: A C program that prints with put function
  *
- * Return: 0
+ * Return: 0 
 */
+
 
 int main(void)
 {
