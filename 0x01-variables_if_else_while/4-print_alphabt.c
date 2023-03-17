@@ -14,10 +14,11 @@ int main(void)
 
 	for (al = 'a'; al <= 'z'; al++)
 	{
-		if (al != 'e' || al != 'q')
+		if (al == 'e' || al == 'q')
 		{
-			putchar(al);
+			al++;
 		}
+		putchar(al);	
 	}
 	putchar('\n');
 	return (0);
