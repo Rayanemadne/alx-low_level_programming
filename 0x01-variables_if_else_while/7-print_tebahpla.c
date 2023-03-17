@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Alphabet kido
+ * main - tebalnpla
  *
- * Description: print alphabet
+ * Description: print tebahpla
  *
  * Return: 0 (Success)
 */
@@ -12,7 +12,7 @@ int main(void)
 {
 	int al;
 
-	for (al = 'z'; al <= 'a'; al--)
+	for (al = 'z'; al >= 'a'; al--)
 	{
 		putchar(al);
 	}
