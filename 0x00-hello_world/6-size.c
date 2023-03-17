@@ -3,9 +3,9 @@
 /**
  * main - size_Of_type
  *
- * Description : print the size of various type
+ * Description: print the size of various type
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
