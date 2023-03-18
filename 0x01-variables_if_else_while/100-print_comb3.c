@@ -23,8 +23,11 @@ int main(void)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-				putchar(',');
-				putchar(' ');
+				if (i != '56' && j != '57')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			j++;
 		}
