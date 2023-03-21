@@ -4,10 +4,10 @@ COMMITER=$1
 
 git add .
 
-sleep 1 
+sleep 0.5 
 
 git commit -m "$COMMITER"
 
-sleep 1
+sleep 0.5
 
 git push
