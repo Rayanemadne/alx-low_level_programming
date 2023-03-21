@@ -1,0 +1,13 @@
+#!/bin/bash
+
+COMMITER=$1
+
+git add .
+
+sleep 1 
+
+git commit -m "$COMMITER"
+
+sleep 1
+
+git push
