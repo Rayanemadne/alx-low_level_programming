@@ -11,9 +11,9 @@
 
 int add(int a, int b)
 {
-	addi = a + b;
+	ad = a + b;
 
-	_putchar((addi / 10) + '0');
-	_putchar((addi % 10) + '0');
-	return (addi);
+	_putchar((ad / 10) + '0');
+	_putchar((ad % 10) + '0');
+	return (ad);
 }
