@@ -7,11 +7,12 @@
  *
  * Return: return the absolute number
 */
+
 int _abs(int n)
 {
 	if (n < 0)
 	{
-		n = -n;
+		n = (-1) * n;
 	}
-	_putchar(n);
+	return (n);
 }
