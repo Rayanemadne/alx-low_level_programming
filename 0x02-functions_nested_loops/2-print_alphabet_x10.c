@@ -7,14 +7,14 @@
 
 void print_alphabet_x10(void)
 {
-	int i,al;
+	int i, al;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (al = 97; al < 123; al++)
 		{
 			putchar(al);
 		}
-		putchar('\n');	
+		putchar('\n');
 	}
 }
