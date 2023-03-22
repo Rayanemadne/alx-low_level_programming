@@ -18,8 +18,8 @@ int main(void)
 		sum = f1 + f2;
 		printf("%d", sum);
 
-		f1 = f2
-		f2 = sum
+		f1 = f2;
+		f2 = sum;
 
 		if (count == 49)
 			printf("\n");
