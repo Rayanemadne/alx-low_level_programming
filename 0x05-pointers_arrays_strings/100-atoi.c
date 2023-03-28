@@ -1,29 +1,26 @@
 #include "main.h"
 
 /**
- * _atoi - convert string to numbers
+ * _atoi - converting string to int
  *
+ * @s: input
  *
- * @s: intput
- *
- * Return: Nothing
- */
+ * Return: convertion result
+*/
 
 int _atoi(char *s)
 {
-	int i, len;
+	unsigned int num = 0;
+	int sign = 1;
 
-	for (len = 0; s[len] != '\0'; len++)
-		;
-	for (i = 0; i < len; i++)
-	{
-	if ((s[i] == 43 || s[i] == 45) && (s[i + 1] >= 48 && s[i + 1] <= 57))
-	{
-		putchar(s[i]);
-	}
-	if (s[i] >= 48 && s[i] <= 57)
-	{
-		putchar(s[i]);
-	}
-	}
+	do {
+		if (*s == '-')
+			sign *= -1;
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+		else if (num > 0)
+			break;
+	} while (*s++);
+
+	return (num * sign);
 }
