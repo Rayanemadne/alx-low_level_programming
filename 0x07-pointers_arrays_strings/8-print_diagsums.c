@@ -10,13 +10,18 @@
 
 void print_diagsums(int *a, int size)
 {
-	unsigned int Lsum = 0, Rsum = 0, i;
+	int i;
+
+	unsigned int sum, sum1;
+
+	sum = 0;
+	sum1 = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		Lsum += a[(size * i) + i];
-		Rsum += a[(size * (i + 1)) - (i + 1)];
+		sum += a[(size * i) + i];
+		sum1 += a[(size * (i + 1)) - (i + 1)];
 	}
 
-	printf("%d, %d\n", Lsum, Rsum);
+	printf("%d, %d\n", sum, sum1);
 }
