@@ -12,12 +12,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
-	char checker;
 
-	if (s == NULL || accept == NULL)
-	{
-		return (NULL);
-	}
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; accept[j] != '\0'; j++)
@@ -28,4 +23,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
+	return ('\0');
 }
