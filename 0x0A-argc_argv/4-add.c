@@ -4,6 +4,9 @@
 
 /**
  * checkNum - check a string if its full digit
+ *
+ * Description: check a string if its full digit
+ *
  * @num: the string
  *
  * Return: 0 if it's numbers
@@ -21,7 +24,7 @@ int checkNum(char num[])
 			return (1);
 		}
 	}
-		return (0);
+	return (0);
 }
 
 /**
@@ -39,8 +42,7 @@ int checkNum(char num[])
 
 int main(int argc, char *argv[])
 {
-	int sum;
-	int i;
+	int i, sum;
 
 	if (argc == 1)
 	{
@@ -61,7 +63,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		printf("%d", sum);
+		printf("%d\n", sum);
 	}
 
 	return (0);
