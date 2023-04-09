@@ -19,9 +19,12 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+	else
+	{
 	int sum = atoi(argv[1]) * atoi(argv[2]);
 
 	printf("%d\n", sum);
+	}
 
 	return (0);
 }
