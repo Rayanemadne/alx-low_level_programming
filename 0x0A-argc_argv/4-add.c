@@ -4,9 +4,6 @@
 
 /**
  * checkNum - check a string if its full digit
- *
- * Description: check a string if its full digit
- *
  * @num: the string
  *
  * Return: 0 if it's numbers
