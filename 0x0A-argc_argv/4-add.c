@@ -31,6 +31,7 @@ int checkNum(char num[])
  * main -  adds positive numbers
  *
  * Description: Print the result
+ *
  * @argc: number of arguments
  * @argv: array that contain all the argument
  *
@@ -41,7 +42,7 @@ int checkNum(char num[])
 
 int main(int argc, char *argv[])
 {
-	int sum = 0;
+	int sum;
 	int i;
 
 	if (argc == 1)
@@ -50,6 +51,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		sum = 0;
 		for (i = 1; i < argc; i++)
 		{
 			if (checkNum(argv[i]) == 0)
