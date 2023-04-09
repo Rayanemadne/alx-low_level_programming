@@ -12,7 +12,7 @@
  * Return: 0 (Success)
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int i = 0;
 
@@ -26,7 +26,6 @@ int main(int argc, char **argv)
 		else
 		{
 			printf("%s", argv[i]);
-			break;
 		}
 	}
 
