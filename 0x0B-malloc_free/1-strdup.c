@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	int len = strlen(str);
+	unsigned int len = strlen(str);
 	int i;
 	char *cp;
 
