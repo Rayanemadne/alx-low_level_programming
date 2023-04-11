@@ -20,11 +20,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	char a[] = malloc(size);
+	char *a = malloc(size);
 
 	a[0] = *c;
 
-	char[size] = '\0';
-
-	return (a);
+	return (&a);
 }
