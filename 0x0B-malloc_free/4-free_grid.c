@@ -3,7 +3,7 @@
 /*RAYANE - MAD*/
 
 /**
- * alloc_grid - free a grid
+ * free_grid - free a grid
  *
  * Description: free the memory of a grid
  *
@@ -16,5 +16,13 @@
 
 void free_grid(int **grid, int height)
 {
-
+	if (grid != NULL && height != 0)
+	{
+		while (height >= 0)
+		{
+			free(grid[height]);
+			height--;
+		}
+		free(grid);
+	}
 }
