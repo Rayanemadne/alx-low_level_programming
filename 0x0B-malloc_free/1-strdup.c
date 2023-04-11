@@ -21,9 +21,7 @@ char *_strdup(char *str)
 	char *cp;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
 
 	cp = malloc(len + 1);
 	if (cp == NULL)
