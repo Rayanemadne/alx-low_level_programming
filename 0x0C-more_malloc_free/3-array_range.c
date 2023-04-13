@@ -20,19 +20,18 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	/* calculat the diferance*/
-	diff = max - min;
+	diff = (max - min) + 1;
 	/* alocat memory */
 
-	ar = malloc(sizeof(int) * diff + 1);
+	ar = malloc(sizeof(int) * diff);
 	if (ar == NULL)
 		return (NULL);
 	/* init the array with the range */
 
-	j = min;
-	for (i = 0; j <= max; i++)
+	for (i = 0; min <= max; i++)
 	{
-		ar[i] = j;
-		j++;
+		ar[i] = min;
+		min++;
 	}
 
 	/* return array */
