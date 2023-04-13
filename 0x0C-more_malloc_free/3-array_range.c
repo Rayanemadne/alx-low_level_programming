@@ -24,7 +24,8 @@ int *array_range(int min, int max)
 	/* alocat memory */
 
 	ar = malloc(sizeof(int) * diff + 1);
-
+	if (ar == NULL)
+		return (NULL);
 	/* init the array with the range */
 
 	j = min;
