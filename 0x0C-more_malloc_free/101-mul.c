@@ -63,7 +63,6 @@ int main(int argc, char *argv[])
 
 	/*get the number passt by arg and calculat*/
 	int *mul = malloc(len1 + len2);
-
 	mul = atoi(s1) * atoi(s2);
 
 	/* print result + new line */
