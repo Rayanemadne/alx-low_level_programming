@@ -5,7 +5,6 @@
 /**
  * malloc_checked - allocate memory
  *
- * Description: allocate memory
  * @b: input of the size
  *
  * Return: pointer
@@ -21,6 +20,6 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 	}
 
-	return (&memo);
+	return (memo);
 
 }
