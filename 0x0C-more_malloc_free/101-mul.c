@@ -35,7 +35,8 @@ int checknum(char n[])
 */
 int main(int argc, char *argv[])
 {
-	int i;
+	char *s1, s2;
+	int len1, len2;
 
 	/*if not egnough arg print Error \n + exit(98)*/
 	if (argc < 2)
@@ -55,11 +56,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	/*get the number passt by arg and calculat*/
 
-	unsigned int num1 = atoi(argv[1]);
-	unsigned int num2 = atoi(argv[2]);
-	unsigned int mul = num1 * num2;
+	/*allocat memory for nm1 nm2 and mul*/
+	s1 = argv[1];
+	s2 = argv[2];
+
+	/*get the number passt by arg and calculat*/
+	int *mul = malloc(len1 + len2);
+
+	mul = atoi(s1) * atoi(s2);
 
 	/* print result + new line */
 
