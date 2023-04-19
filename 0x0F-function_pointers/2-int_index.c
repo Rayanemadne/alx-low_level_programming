@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 
 /*RAYANE - MAD*/
 
@@ -14,7 +14,7 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int i, j = 0;
+	int i, j = 0;
 
 	if (size <= 0)
 		return (-1);
@@ -23,14 +23,13 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		for (i = 0; i < size; i++)
 		{
-			if (cmp(array[i]) == 0)
+			if (cmp(array[i]) == 1)
 			{
 				j = 1;
 				break;
 			}
 		}
 	}
-
 	if (i == size && j != 1)
 	{
 		return (-1);
