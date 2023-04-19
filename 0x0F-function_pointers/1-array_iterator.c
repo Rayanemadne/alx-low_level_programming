@@ -16,8 +16,11 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 	/*go to every ellement in the array and give it to the action*/
-	for (i = 0; i < size; i++)
+	if (array != NULL && size > 0 && action != NULL)
 	{
-		action(array[i]);
+		for (i = 0; i < size; i++)
+		{
+			action(array[i]);
+		}
 	}
 }
