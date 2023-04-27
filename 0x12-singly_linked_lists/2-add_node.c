@@ -1,5 +1,6 @@
 #include "lists.h"
-#include <string.h>
+
+/*RAYANE - MAD*/
 
 /**
  * add_node - adds a node
