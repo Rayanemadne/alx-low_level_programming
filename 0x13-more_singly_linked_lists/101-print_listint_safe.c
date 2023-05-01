@@ -7,6 +7,7 @@
  * @head: head of the list
  * Return: counter
  */
+
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *tmp = NULL;
