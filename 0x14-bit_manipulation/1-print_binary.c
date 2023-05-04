@@ -3,7 +3,7 @@
 /*RAYANE - MAD*/
 
 /**
- * _power - calculate base and power
+ * power - calculate base and power
  * @base: base
  * @pow: power
  * Return: value of base and power
