@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+gcc 3-cp.c -o cp
+
+
