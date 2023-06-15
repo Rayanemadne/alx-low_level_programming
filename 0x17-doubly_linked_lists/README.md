@@ -1,1 +1,1 @@
-Learnig doubly linked lists
+Learning about doubly linked list

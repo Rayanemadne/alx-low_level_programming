@@ -1,18 +1,20 @@
-#include "list.h"
+#include "lists.h"
+/*RAYANE - MAD*/
 
 /**
- * print_dlistint - print integer of the list
- * @h: head of the list
- * Return: 0
-*/
-
-
+ * print_dlistint - print all the elements of a dlistint_t list
+ * @h: pointer to the start of the linked list
+ *
+ * Return: number of nodes
+ */
 size_t print_dlistint(const dlistint_t *h)
 {
-	while (h->next != NULL)
+	size_t i;
+
+	for (i = 0; h != NULL; i++)
 	{
-		printf("%d", h->n);
+		printf("%d\n", h->n);
 		h = h->next;
 	}
-	return (0);
+	return (i);
 }
